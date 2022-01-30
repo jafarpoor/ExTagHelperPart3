@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExPartTagHelperPart3", "ExPartTagHelperPart3\ExPartTagHelperPart3.csproj", "{5AFECF7B-E471-4896-8ED6-EC66EB4E6209}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AFECF7B-E471-4896-8ED6-EC66EB4E6209}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AFECF7B-E471-4896-8ED6-EC66EB4E6209}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AFECF7B-E471-4896-8ED6-EC66EB4E6209}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AFECF7B-E471-4896-8ED6-EC66EB4E6209}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D970773E-FDEA-4316-80D4-E83BAD8B3B65}
+	EndGlobalSection
+EndGlobal

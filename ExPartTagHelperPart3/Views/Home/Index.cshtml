@@ -1,0 +1,45 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+@******************  a ********************@
+<a asp-action="Index" asp-controller="Message">ورود به صفحه خوش آمد گویی</a>
+
+<br />
+<br />
+
+<a asp-action="Index" asp-controller="Home" asp-route-id="100" asp-route-name="faezeh">ارسال پارامتر</a>
+
+<br />
+<br />
+
+<a asp-action="Index" asp-controller="Home" asp-fragment="Footer">ّبرو </a>
+
+<br />
+<br />
+
+<div id="#Footer">Hiiiii</div>
+
+
+@******** cache ***********@
+<cache expires-after="TimeSpan.FromSeconds(10)" vary-by-query="id,name"> @DateTime.Now.TimeOfDay</cache>
+
+
+@**********  Distributed-cache ***************@
+<!--cache in database-->
+<distributed-cache></distributed-cache>
+
+
+@*********** environment ***********@
+<environment include="Development"><h3>محیط توسعه است</h3></environment>
+
+@********  img   get last version ********@
+<img  src=" " asp-append-version="true"/>
+
+@******* link have to adress ******@
+<link href="" asp-fallback-href="Two adress"/>
